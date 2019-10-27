@@ -14,9 +14,4 @@ object ZigZagConversion {
     }
     map.toSeq.sortWith((v1, v2) => v1._1 < v2._1).flatMap(_._2).mkString
   }
-  def main(args: Array[String]): Unit = {
-    println(convert("PAYPALISHIRING", 3))
-    println(convert("PAYPALISHIRING",4))
-    println(convert("A", 1))
-  }
 }
