@@ -1,6 +1,6 @@
 package main
 
-object Solution {
+object Solution01 {
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     val map = nums.zipWithIndex.toMap
     var x, y = -1

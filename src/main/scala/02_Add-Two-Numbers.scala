@@ -11,7 +11,7 @@ class ListNode(var _x: Int = 0) {
   var x: Int = _x
 }
 
-object Solution {
+object Solution02 {
   def createNode(str: String, node: ListNode): ListNode = {
     str.headOption match {
       case Some(c) =>

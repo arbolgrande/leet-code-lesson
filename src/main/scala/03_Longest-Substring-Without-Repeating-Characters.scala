@@ -1,6 +1,6 @@
 import scala.collection.mutable.HashMap
 
-object Solution {
+object Solution03 {
   def lengthOfLongestSubstring(s: String): Int = {
     var map = HashMap[Char, Int]()
     var resArray = Array.empty[Int]
