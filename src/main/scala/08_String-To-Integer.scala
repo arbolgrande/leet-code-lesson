@@ -8,6 +8,7 @@ object StringToInterger {
         case None    => ("", strArray)
       }
     }
+
     var num = ""
     def convert(strArray: Array[String]): String = {
       strArray.headOption match {
