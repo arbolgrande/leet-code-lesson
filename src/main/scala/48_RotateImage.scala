@@ -1,4 +1,4 @@
-object Main {
+object RotateImage {
   def rotate(matrix: Array[Array[Int]]): Unit = {
     var map     = scala.collection.mutable.Map[Int, Int]()
     val n       = matrix.head.length
@@ -15,12 +15,5 @@ object Main {
         replaceNumber(v-1, m, map((n * n) - (n - v) - (n * m)))
       }
     }
-  }
-  def main(args: Array[String]): Unit = {
-    println(rotate(Array(
-      Array(1,2,3),
-      Array(4,5,6),
-      Array(7,8,9)
-    )))
   }
 }
